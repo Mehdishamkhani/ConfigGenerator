@@ -7,6 +7,8 @@ plugins {
 kotlin {}
 
 gradlePlugin {
+    vcsUrl = "https://github.com/Mehdishamkhani/ConfigGenerator/"
+    website = "https://github.com/Mehdishamkhani/ConfigGenerator/"
     plugins {
         register("configGenerator") {
             id = "config.generator.plugin-multiplatform"
